@@ -1,5 +1,4 @@
 input, button {
-    /* border: solid .5px rgb(200, 200, 200); */
     border: solid .5px #555B6E;
     border-radius: 2px;
 }
@@ -14,7 +13,6 @@ input {
 }
 
 button {
-    /* font-size: 12pt; */
     height: 43px;
     width: 70px;
 }
@@ -22,8 +20,8 @@ button {
 article {
     margin: 40px 0 10px 0;
     padding: 15px;
-    /* box-shadow: -3px 2px 4px 0px #f0f0f0; */
 }
+
 article> p:first-of-type {
     font-weight: bold;
     font-size: 22pt;
