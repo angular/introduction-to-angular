@@ -1,21 +1,11 @@
-# Fairhouse (Step One)
-Welcome to step one of building the application. You'll find the base application here.
+# Introduction to Angular Codelab
 
+\In this codelab, you'll build a housing app with Angular. The completed app will feature the ability to view home listings based on user search, and view details of a housing location.
 
-## This step covers
-lorem ipsum and all that jazz.
-## Local Setup
-*  Clone this repository
-*  change into `fairhouse` directory
-*  run `npm install`
+You'll build everything with Angular using Angular's powerful tooling and great browser integration.
 
-After the dependencies have been installed:
+Here's a preview of the finished application:
 
-* Run `ng serve` for a dev server. 
-* Navigate to `http://localhost:4200/`. 
+![Completed application - one column search results, second column search details](9yB5AM9sBgVwfTR.png)
 
-_The app will automatically reload if you change any of the source files._
-
-
-_______
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+The step-by-step guide can be found at [https://codelabs.developers.google.com/introduction-to-angular](https://codelabs.developers.google.com/introduction-to-angular)
