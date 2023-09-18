@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "fairhouse"
+  "defaultProject": "fairhouse",
+  "cli": {
+    "analytics": false
+  }
 }
