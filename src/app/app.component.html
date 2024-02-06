@@ -1,1 +1,22 @@
-Fairhouse App is running
+<main>
+  <header><img src="../assets/logo.svg" alt="holiday house" />holidayhouse</header>
+  <section>
+    <app-housing-list
+      [locationList]="housingLocationList"
+      (locationSelectedEvent)="updateSelectedLocation($event)"
+    ></app-housing-list>
+  </section>
+
+  <article>
+    <ng-container *ngIf="selectedLocation">
+      <img [src]="selectedLocation.photo" />
+      <p>{{ selectedLocation.name }}</p>
+      <p>{{ selectedLocation.city }}, {{ selectedLocation.state }}</p>
+      <p>Unidades Disponíveis: {{ selectedLocation.availableUnits }}</p>
+      <p>
+        {{ selectedLocation.laundry ? "Tem lavanderia" : "Não tem lavanderia" }}
+      </p>
+      <p>{{ selectedLocation.wifi ? "Tem wifi" : "Não tem wifi" }}</p>
+    </ng-container>
+  </article>
+</main>
