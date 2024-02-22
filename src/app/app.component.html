@@ -1,17 +1,1 @@
-<main>
-  <header><img src="../assets/logo.svg">Fairhouse</header>
-  <section>
-    <app-housing-list [locationList]="housingLocationList" (locationSelectedEvent)="updateSelectedLocation($event)">
-    </app-housing-list>
-    <article>
-      <ng-container *ngIf="selectedLocation">
-        <img [src]="selectedLocation?.photo">
-        <p>{{selectedLocation?.name}}</p>
-        <p>{{selectedLocation?.city}}, {{selectedLocation?.state}}</p>
-        <p>Available Units: {{selectedLocation?.availableUnits}}</p>
-        <p>{{selectedLocation?.laundry ? "Has laundry" : "Does Not have laundry"}}</p>
-        <p>{{selectedLocation?.wifi ? "Has wifi" : "Does Not have wifi"}}</p>
-      </ng-container>
-    </article>
-  </section>
-</main>
+Fairhouse App is running
