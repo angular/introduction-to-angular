@@ -7,6 +7,8 @@ import { HousingLocation } from '../housing-location';
   styleUrls: ['./housing-list.component.css'],
 })
 export class HousingListComponent implements OnInit {
+  @Input() locationList: HousingLocation[] = [];
+
   constructor() {}
 
   ngOnInit(): void {}
