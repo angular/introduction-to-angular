@@ -33,3 +33,8 @@ article,
 article > p {
   color: #202845;
 }
+
+article > p:first-of-type {
+  font-weight: bold;
+  font-size: 22pt;
+}
