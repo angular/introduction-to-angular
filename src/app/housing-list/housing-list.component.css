@@ -14,3 +14,12 @@ input {
   border: solid 1px #888c9c;
   padding: 0 5px 0 10px;
 }
+
+button {
+  width: 70px;
+  height: 42;
+  background-color: #4468e8;
+  color: white;
+  border: solid 1px #4468e8;
+  border-radius: 0 2px 2px 0;
+}
