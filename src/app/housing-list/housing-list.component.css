@@ -28,3 +28,8 @@ article {
   margin: 40px 0 10px 0;
   color: #202845;
 }
+
+article,
+article > p {
+  color: #202845;
+}
