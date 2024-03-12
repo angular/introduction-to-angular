@@ -8,4 +8,15 @@ import { HousingLocation } from './housing-location';
 })
 export class AppComponent {
   title = 'fairhouse';
+  housingLocationList: HousingLocation[] = [
+    {
+      name: 'Acme Fresh Start Housing',
+      city: 'Chicago',
+      state: 'IL',
+      photo: '../assets/housing-1.jpg',
+      availableUnits: 4,
+      wifi: true,
+      laundry: true,
+    },
+  ];
 }
