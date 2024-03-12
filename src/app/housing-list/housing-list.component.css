@@ -38,3 +38,8 @@ article > p:first-of-type {
   font-weight: bold;
   font-size: 22pt;
 }
+
+img {
+  width: 490px;
+  border-radius: 5pt;
+}
