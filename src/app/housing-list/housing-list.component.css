@@ -43,3 +43,8 @@ img {
   width: 490px;
   border-radius: 5pt;
 }
+
+label {
+  display: block;
+  color: #888c9c;
+}
