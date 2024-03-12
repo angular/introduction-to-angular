@@ -5,3 +5,12 @@ button {
   display: inline-block;
   padding: 0;
 }
+
+input {
+  width: 400 px;
+  height: 40px;
+  border-radius: 2px 0 0 2px;
+  color: #888c9c;
+  border: solid 1px #888c9c;
+  padding: 0 5px 0 10px;
+}
