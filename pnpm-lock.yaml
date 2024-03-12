@@ -6,37 +6,37 @@ settings:
 
 dependencies:
   '@angular/animations':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/core@13.2.7)
   '@angular/common':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/core@13.2.7)(rxjs@7.4.0)
   '@angular/compiler':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7
   '@angular/core':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(rxjs@7.4.0)(zone.js@0.11.8)
   '@angular/forms':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/common@13.2.7)(@angular/core@13.2.7)(@angular/platform-browser@13.2.7)(rxjs@7.4.0)
   '@angular/platform-browser':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/animations@13.2.7)(@angular/common@13.2.7)(@angular/core@13.2.7)
   '@angular/platform-browser-dynamic':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/common@13.2.7)(@angular/compiler@13.2.7)(@angular/core@13.2.7)(@angular/platform-browser@13.2.7)
   '@angular/router':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/common@13.2.7)(@angular/core@13.2.7)(@angular/platform-browser@13.2.7)(rxjs@7.4.0)
   rxjs:
     specifier: ~7.4.0
     version: 7.4.0
   tslib:
-    specifier: ^2.3.0
+    specifier: ^2.6.2
     version: 2.6.2
   zone.js:
-    specifier: ~0.11.4
+    specifier: ~0.11.8
     version: 0.11.8
 
 devDependencies:
@@ -47,34 +47,34 @@ devDependencies:
     specifier: ~13.2.6
     version: 13.2.6
   '@angular/compiler-cli':
-    specifier: ~13.2.6
+    specifier: ~13.2.7
     version: 13.2.7(@angular/compiler@13.2.7)(typescript@4.4.4)
   '@types/jasmine':
-    specifier: ~3.10.0
+    specifier: ~3.10.18
     version: 3.10.18
   '@types/node':
-    specifier: ^12.11.1
+    specifier: ^12.20.55
     version: 12.20.55
   jasmine-core:
-    specifier: ~3.10.0
+    specifier: ~3.10.1
     version: 3.10.1
   karma:
-    specifier: ~6.3.0
+    specifier: ~6.3.20
     version: 6.3.20
   karma-chrome-launcher:
-    specifier: ~3.1.0
+    specifier: ~3.1.1
     version: 3.1.1
   karma-coverage:
     specifier: ~2.0.3
     version: 2.0.3
   karma-jasmine:
-    specifier: ~4.0.0
+    specifier: ~4.0.2
     version: 4.0.2(karma@6.3.20)
   karma-jasmine-html-reporter:
     specifier: ~1.7.0
     version: 1.7.0(jasmine-core@3.10.1)(karma-jasmine@4.0.2)(karma@6.3.20)
   typescript:
-    specifier: ~4.4.3
+    specifier: ~4.4.4
     version: 4.4.4
 
 packages:
@@ -443,12 +443,12 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.23.5
-      '@babel/generator': 7.23.6
+      '@babel/generator': 7.16.8
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-module-transforms': 7.23.3(@babel/core@7.16.12)
       '@babel/helpers': 7.24.0
       '@babel/parser': 7.24.0
-      '@babel/template': 7.24.0
+      '@babel/template': 7.16.7
       '@babel/traverse': 7.24.0
       '@babel/types': 7.24.0
       convert-source-map: 1.9.0
@@ -1745,7 +1745,7 @@ packages:
     resolution: {integrity: sha512-8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.6.0
+      semver: 7.3.5
     dev: true
 
   /@npmcli/fs@2.1.2:
@@ -1753,7 +1753,7 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.6.0
+      semver: 7.3.5
     dev: true
 
   /@npmcli/git@2.1.0:
@@ -1765,7 +1765,7 @@ packages:
       npm-pick-manifest: 6.1.1
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.6.0
+      semver: 7.3.5
       which: 2.0.2
     transitivePeerDependencies:
       - bluebird
@@ -2564,7 +2564,7 @@ packages:
       '@npmcli/move-file': 1.1.2
       chownr: 2.0.0
       fs-minipass: 2.1.0
-      glob: 7.2.3
+      glob: 7.2.0
       infer-owner: 1.0.4
       lru-cache: 6.0.0
       minipass: 3.3.6
@@ -2971,7 +2971,7 @@ packages:
       postcss-modules-scope: 3.1.1(postcss@8.4.5)
       postcss-modules-values: 4.0.0(postcss@8.4.5)
       postcss-value-parser: 4.2.0
-      semver: 7.6.0
+      semver: 7.3.5
       webpack: 5.67.0(esbuild@0.14.22)
     dev: true
 
@@ -3912,7 +3912,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.0.4
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -4101,7 +4101,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4112,7 +4112,7 @@ packages:
     dependencies:
       '@tootallnate/once': 2.0.0
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4161,7 +4161,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4471,7 +4471,7 @@ packages:
     resolution: {integrity: sha512-pzqtp31nLv/XFOzXGuvhCb8qhjmTVo5vjVk19XE4CRlSWz0KoeJ3bw9XsA7nOp9YBf4qHjwBxkDzKcME/J29Yg==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/core': 7.24.0
+      '@babel/core': 7.16.12
       '@babel/parser': 7.24.0
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
@@ -5194,7 +5194,7 @@ packages:
       nopt: 5.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
-      semver: 7.6.0
+      semver: 7.3.5
       tar: 6.2.0
       which: 2.0.2
     transitivePeerDependencies:
@@ -5234,7 +5234,7 @@ packages:
     resolution: {integrity: sha512-09OmyDkNLYwqKPOnbI8exiOZU2GVVmQp7tgez2BPi5OZC8M82elDAps7sxC4l//uSUtotWqoEIDwjRvWH4qz8w==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.6.0
+      semver: 7.3.5
     dev: true
 
   /npm-normalize-package-bin@1.0.1:
@@ -5246,7 +5246,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 4.1.0
-      semver: 7.6.0
+      semver: 7.3.5
       validate-npm-package-name: 3.0.0
     dev: true
 
@@ -5267,7 +5267,7 @@ packages:
       npm-install-checks: 4.0.0
       npm-normalize-package-bin: 1.0.1
       npm-package-arg: 8.1.5
-      semver: 7.6.0
+      semver: 7.3.5
     dev: true
 
   /npm-registry-fetch@12.0.2:
@@ -5778,7 +5778,7 @@ packages:
       cosmiconfig: 7.1.0
       klona: 2.0.6
       postcss: 8.4.5
-      semver: 7.6.0
+      semver: 7.3.5
       webpack: 5.67.0(esbuild@0.14.22)
     dev: true
 
@@ -6571,7 +6571,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.3
       socks: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -6582,7 +6582,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.3
       socks: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -6782,7 +6782,7 @@ packages:
     dependencies:
       css: 3.0.0
       debug: 4.3.4
-      glob: 7.2.3
+      glob: 7.2.0
       safer-buffer: 2.1.2
       sax: 1.2.4
       source-map: 0.7.4
@@ -6890,8 +6890,8 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@istanbuljs/schema': 0.1.3
-      glob: 7.2.3
-      minimatch: 3.1.2
+      glob: 7.2.0
+      minimatch: 3.0.4
     dev: true
 
   /text-table@0.2.0:
