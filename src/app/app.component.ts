@@ -18,5 +18,23 @@ export class AppComponent {
       wifi: true,
       laundry: true,
     },
+    {
+      name: 'A133 Transitional Housing',
+      city: 'Santa Monica',
+      state: 'CA',
+      photo: '../assets/housing-2.jpg',
+      availableUnits: 0,
+      wifi: false,
+      laundry: true,
+    },
+    {
+      name: 'Warm Beds Housing Support',
+      city: 'Juneau',
+      state: 'AK',
+      photo: '../assets/housing-3.jpg',
+      availableUnits: 1,
+      wifi: false,
+      laundry: false,
+    },
   ];
 }
