@@ -1,0 +1,7 @@
+input,
+button {
+  border: solid 1px #555b6e;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0;
+}
