@@ -8,6 +8,7 @@ import { HousingLocation } from '../housing-location';
 })
 export class HousingListComponent implements OnInit {
   @Input() locationList: HousingLocation[] = [];
+  results: HousingLocation[] = [];
 
   constructor() {}
 
