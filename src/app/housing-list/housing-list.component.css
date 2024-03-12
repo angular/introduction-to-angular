@@ -23,3 +23,8 @@ button {
   border: solid 1px #4468e8;
   border-radius: 0 2px 2px 0;
 }
+
+article {
+  margin: 40px 0 10px 0;
+  color: #202845;
+}
