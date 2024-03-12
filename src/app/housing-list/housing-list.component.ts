@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { HousingLocation } from '../housing-location';
 
 @Component({
   selector: 'app-housing-list',
