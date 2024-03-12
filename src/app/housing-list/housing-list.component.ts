@@ -10,5 +10,7 @@ export class HousingListComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  searchHousingLocations() {}
+  searchHousingLocations(searchText: string) {
+    console.log(searchText);
+  }
 }
