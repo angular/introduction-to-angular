@@ -39,4 +39,7 @@ export class AppComponent {
   ];
 
   selectedLocation: HousingLocation | undefined;
+
+  updatedSelectedLocation(location: HousingLocation) {}
+  searchHousingLocations() {}
 }
