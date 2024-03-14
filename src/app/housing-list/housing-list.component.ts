@@ -10,6 +10,8 @@ export class HousingListComponent implements OnInit {
   @Input() locationList: HousingLocation[] = [];
   results: HousingLocation[] = [];
 
+  @Output() locationSelectedEvent = new EventEmitter<HousingLocation>();
+
   constructor() {}
 
   ngOnInit(): void {}
