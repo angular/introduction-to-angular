@@ -10,6 +10,11 @@
       <p>{{ selectedLocation?.name }}</p>
       <p>{{ selectedLocation?.availableUnits }}</p>
       <p>{{ selectedLocation?.city }}, {{ selectedLocation?.state }}</p>
+      <p>
+        {{
+          selectedLocation?.laundry ? "Has laundry" : "Does not have laundry"
+        }}
+      </p>
     </article>
   </section>
 </main>
