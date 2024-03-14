@@ -5,5 +5,8 @@
       [locationList]="housingLocationList"
       (locationSelectedEvent)="updatedSelectedLocation($event)"
     ></app-housing-list>
+    <article>
+      <img [src]="selectedLocation?.photo" />
+    </article>
   </section>
 </main>
