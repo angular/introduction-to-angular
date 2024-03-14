@@ -6,7 +6,7 @@
       (locationSelectedEvent)="updatedSelectedLocation($event)"
     ></app-housing-list>
     <article>
-      <ng-container>
+      <ng-container *ngIf="selectedLocation">
         <img [src]="selectedLocation?.photo" />
         <p>{{ selectedLocation?.name }}</p>
         <p>{{ selectedLocation?.availableUnits }}</p>
