@@ -37,4 +37,6 @@ export class AppComponent {
       laundry: false,
     },
   ];
+
+  selectedLocation: HousingLocation | undefined;
 }
